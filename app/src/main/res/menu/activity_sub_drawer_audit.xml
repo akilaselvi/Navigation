@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@mipmap/dash_icon"
+
+            android:title="Dashborad" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@mipmap/calendar_icon"
+            android:title="Calender"
+            />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/plan_icon"
+            android:title="Plan" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@mipmap/do_icon"
+            android:title="Do" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/checks_icon"
+            android:title="Check" />
+        <item
+            android:id="@+id/nav_act"
+            android:icon="@mipmap/act_icon"
+            android:title="Act" />
+        <item
+            android:id="@+id/nav_publish"
+            android:icon="@mipmap/publish_icon"
+            android:title="Publish" />
+        <item
+            android:id="@+id/nav_conf"
+            android:icon="@mipmap/configure_icon"
+            android:title="Configure" />
+    </group>
+
+</menu>
